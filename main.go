@@ -12,4 +12,7 @@ func main() {
 	// func newCard() string {
 	// 	return "Five of Diamonds"
 	cards.saveToFile("my_cards")
+	cards2 := newDeckFromFile("my_cards")
+
+	cards2.print()
 }
